@@ -21,6 +21,6 @@ export const subStringGenerator = (string) => {
             }
         }
     }
-    // console.log(slicer);
+    // console.log(JSON.stringify(slicer));
     return slicer.sort((a, b) => a.length - b.length);
 };

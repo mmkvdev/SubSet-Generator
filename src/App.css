@@ -21,9 +21,6 @@ body {
 
 .iconButtonContainer {
   margin: 25px;
-  float: right;
-  opacity: 0.9;
-  filter: alpha(opacity=90);
 }
 
 .iconButtonContainer:focus {
@@ -32,8 +29,6 @@ body {
 
 .input-container {
   display: flex;
-  align-items: inherit;
-  padding: 50px;
 }
 
 .inputFields {
@@ -50,4 +45,8 @@ body {
   justify-content: center;
   align-items: center;
   margin: 10px;
+  max-width: 100%;
+  font-family: 'Source Code Pro', monospace;
+  text-align: center;
+
 }
